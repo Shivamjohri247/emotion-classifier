@@ -105,3 +105,7 @@ AUTHOR
 Maintained by: ShivamJohri
 
 For detailed documentation, visit: https://github.com/ShivamJohri/emotion_classifier
+
+## 🧪 Testing
+
+### Test Structure

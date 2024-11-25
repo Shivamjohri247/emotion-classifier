@@ -1,0 +1,15 @@
+artifacts_root: tests/artifacts
+
+data_ingestion:
+  root_dir: tests/artifacts/data_ingestion
+  local_data_file: "tests/data/test_data.csv"
+
+model_trainer:
+  root_dir: tests/artifacts/model_trainer
+  model_name: "distilbert-base-uncased"
+  num_labels: 15
+  num_train_epochs: 1
+  batch_size: 4
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  max_length: 128 

@@ -33,9 +33,9 @@ setup(
         "dev": [
             "pytest>=6.0",
             "pytest-cov>=2.0",
-            "flake8>=3.9",
-            "black>=21.0",
-            "isort>=5.0",
+            "pytest-mock>=3.6",
+            "httpx>=0.23.0",
+            "pytest-asyncio>=0.19.0"
         ],
     },
     entry_points={
