@@ -11,13 +11,14 @@ QUICK START
 
 TEST STRUCTURE
 -------------
+```
 tests/
 ├── config/              - Test configurations
 ├── data/               - Test data
 ├── unit/               - Unit tests
 ├── integration/        - Integration tests
 └── conftest.py         - Shared fixtures
-
+```
 BASIC COMMANDS
 -------------
 1. All tests:
