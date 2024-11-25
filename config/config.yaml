@@ -1,0 +1,41 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  local_data_file: "data/emotion_sentiment_dataset.csv"
+  unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  required_columns:
+    - text
+    - Emotion
+  valid_emotions:
+    - joy
+    - sadness
+    - anger
+    - fear
+    - love
+    - surprise
+
+model_trainer:
+  root_dir: artifacts/model_trainer
+  model_name: "distilbert-base-uncased"
+  num_labels: 6
+  num_train_epochs: 3.0
+  batch_size: 32
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  max_length: 128
+  use_cuda: true
+  fp16: true
+
+model_evaluation:
+  root_dir: artifacts/model_evaluation
+  metric_file_name: metrics.json
+  emotion_labels:
+    0: "joy"
+    1: "sadness"
+    2: "anger"
+    3: "fear"
+    4: "love"
+    5: "surprise"

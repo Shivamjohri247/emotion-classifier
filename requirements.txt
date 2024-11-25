@@ -1,0 +1,10 @@
+transformers
+torch
+pandas
+numpy
+scikit-learn
+mlflow>=2.0.0
+datasets
+pyyaml
+python-box
+accelerate>=0.26.0 
