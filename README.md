@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/db89297e-b410-41b9-80bd-71017a81099c)
+
+
 # 🎭 Emotion Classification System
 
 Hey there! 👋 Welcome to my Emotion Classification project. This is a production-ready system that can understand emotions in text using state-of-the-art transformer models.
@@ -104,8 +107,12 @@ AUTHOR
 ------
 Maintained by: ShivamJohri
 
+<<<<<<< HEAD
 For detailed documentation, visit: https://github.com/ShivamJohri/emotion_classifier
 
 ## 🧪 Testing
 
 ### Test Structure
+=======
+For detailed documentation, visit: [https://github.com/ShivamJohri/emotion_classifier](https://github.com/Shivamjohri247/emotion-classifier?)
+>>>>>>> ab82f71d4394fb682f9d4f90df56ca061207912c
