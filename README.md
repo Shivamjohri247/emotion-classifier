@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/db89297e-b410-41b9-80bd-71017a81099c)
+
+
 # 🎭 Emotion Classification System
 
 Hey there! 👋 Welcome to my Emotion Classification project. This is a production-ready system that can understand emotions in text using state-of-the-art transformer models.
