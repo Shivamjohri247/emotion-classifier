@@ -107,4 +107,4 @@ AUTHOR
 ------
 Maintained by: ShivamJohri
 
-For detailed documentation, visit: https://github.com/ShivamJohri/emotion_classifier
+For detailed documentation, visit: [https://github.com/ShivamJohri/emotion_classifier](https://github.com/Shivamjohri247/emotion-classifier?)
